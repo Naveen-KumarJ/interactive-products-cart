@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products Cart</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="products-container">
+        <div class="products-header">
+          <h1>Products</h1>
+          <h1><span id="products-count"></span> Items</h1>
+        </div>
+        <section class="products-details">
+          <div id="product-list"></div>
+        </section>
+      </div>
+      <div class="cart-container">
+        <div class="carts-header">
+          <h1>Order Summary</h1>
+        </div>
+        <div class="cart-products-details">
+          <div class="product-purchased-details-tab"></div>
+          <div class="alert-tab">No Product added to the cart</div>
+          <div class="checkout-tab">
+            <div class="total-cost">
+              <h4>Total</h4>
+              <h4 id="final-price"></h4>
+            </div>
+            <button>Checkout</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
