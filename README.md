@@ -13,7 +13,8 @@ An interactive shopping cart application built with HTML, CSS, and JavaScript. T
 
 ## Screenshots
 ### Products-cart Page
-![Products-cart Page](#) *(Add your screenshot URL here)*
+![Products-cart Page](./assets/output-no-products-added.png)
+![products-cart Page](./assets/final-output.png)
 
 ## Installation
 1. Clone the repository:
